@@ -18,7 +18,6 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    console.log(JSON.parse(process.env.CONFIG))
     try {
       await Auth.currentSession();
       this.userHasAuthenticated(true);
