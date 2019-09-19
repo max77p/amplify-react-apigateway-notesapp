@@ -54,3 +54,4 @@ env.yml
 #custom
 serverless
 mocks
+create.js
