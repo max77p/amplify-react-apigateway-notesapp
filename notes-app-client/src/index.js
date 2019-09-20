@@ -34,7 +34,7 @@ Amplify.configure({
   API: {
     endpoints: [
       {
-        name: "notes",
+        name: process.env.TABLE_NAME,
         endpoint: config.apiGateway.URL,
         region: config.apiGateway.REGION
       },
